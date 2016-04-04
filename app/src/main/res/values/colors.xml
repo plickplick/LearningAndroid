@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="borderturn">#324052b5</color>
+    <color name="borderwinner">#32b54044</color>
+    <color name="hammarby">#03a657</color>
+    <color name="setupbackground">#324052b5</color>
+    <color name="mainbackground">#FFFFFF</color>
+</resources>
+
+<!-- MINA ORGINAL FÄRGER
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="borderturn">#324052b5</color>
+    <color name="borderwinner">#32b54044</color>
+    <color name="hammarby">#03a657</color>
+    <color name="setupbackground">#324052b5</color>
+    <color name="mainbackground">#FFFFFF</color>
+-->
+
+<!-- WILLIAMS FÄRGER
+    <color name="colorPrimary">#03a657</color>
+    <color name="colorPrimaryDark">#03a657</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="borderturn">#3203a657</color>
+    <color name="borderwinner">#3203a657</color>
+    <color name="hammarby">#03a657</color>
+    <color name="setupbackground">#03a657</color>
+-->
+
+<!--MIRANDAS FÄRGER
+
+
+ -->

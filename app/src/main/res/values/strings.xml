@@ -1,0 +1,40 @@
+<resources>
+    <!-- Application settings -->
+    <string name="app_name">Yahtzee</string>
+    <string name="action_newGame">New Game</string>
+    <string name="action_highScore">High scores</string>
+    <string name="highScoreBox">Top 10 High scores</string>
+
+    <!-- MainActivity strings -->
+    <string name="TextView1">Ones</string>
+    <string name="TextView2">Twos</string>
+    <string name="TextView3">Threes</string>
+    <string name="TextView4">Fours</string>
+    <string name="TextView5">Fives</string>
+    <string name="TextView6">Sixes</string>
+    <string name="TextView7">Bonus</string>
+    <string name="TextView8">One pair</string>
+    <string name="TextView9">Small straight</string>
+    <string name="TextView10">Three of a kind</string>
+    <string name="TextView11">Large straight</string>
+    <string name="TextView12">Two pairs</string>
+    <string name="TextView13">Four of a kind</string>
+    <string name="TextView14">Full house</string>
+    <string name="TextView15">Chanse</string>
+    <string name="TextView16">Yahtzee</string>
+    <string name="TextView17">Total score</string>
+
+    <string name="RollDice">Roll Dice</string>
+
+    <!-- SetupActivity strings -->
+    <string name="TextViewListIn">Players in game</string>
+    <string name="TextViewListNoPlayers">No Players . . . .</string>
+    <string name="TextViewListChoose">Choose Players</string>
+    <string name="TextViewAddPlayer">Add players</string>
+
+    <string name="HintAddPlayer">Name . . . </string>
+    <string name="ButtonAddPlayer">OK</string>
+    <string name="ButtonAddPCPlayer">Add PC player</string>
+    <string name="ButtonStartGame">Start Game</string>
+    <string name="PCRollDice">Play PC</string>
+</resources>

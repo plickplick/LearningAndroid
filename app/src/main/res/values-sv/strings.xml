@@ -1,0 +1,40 @@
+<resources>
+    <!-- Application settings -->
+    <string name="app_name">Yatzy</string>
+    <string name="action_newGame">Nytt spel</string>
+    <string name="action_highScore">High scores</string>
+    <string name="highScoreBox">10 bästa High scores</string>
+
+    <!-- MainActivity strings -->
+    <string name="TextView1">Ettor</string>
+    <string name="TextView2">Tvåor</string>
+    <string name="TextView3">Treor</string>
+    <string name="TextView4">Fyror</string>
+    <string name="TextView5">Femmor</string>
+    <string name="TextView6">Sexor</string>
+    <string name="TextView7">Bonus</string>
+    <string name="TextView8">Par</string>
+    <string name="TextView9">Liten stege</string>
+    <string name="TextView10">Triss</string>
+    <string name="TextView11">Stor stege</string>
+    <string name="TextView12">Två par</string>
+    <string name="TextView13">Fyrtal</string>
+    <string name="TextView14">Kåk</string>
+    <string name="TextView15">Chans</string>
+    <string name="TextView16">Yatzy</string>
+    <string name="TextView17">Total poäng</string>
+
+    <string name="RollDice">Slå tärningar</string>
+
+    <!-- SetupActivity strings -->
+    <string name="TextViewListIn">Spelare i spelet</string>
+    <string name="TextViewListNoPlayers">Inga spelare</string>
+    <string name="TextViewListChoose">Välj spelare</string>
+    <string name="TextViewAddPlayer">Lägg till spelare</string>
+
+    <string name="HintAddPlayer">Namn . . . </string>
+    <string name="ButtonAddPCPlayer">Lägg till PC spelare</string>
+    <string name="ButtonAddPlayer">OK</string>
+    <string name="ButtonStartGame">Starta spelet</string>
+    <string name="PCRollDice">Spela PC</string>
+</resources>

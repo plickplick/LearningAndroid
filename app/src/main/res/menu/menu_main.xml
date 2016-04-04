@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yatzy.gui.MainActivity">
+    <item
+        android:id="@+id/action_newGame"
+        android:orderInCategory="100"
+        android:title="@string/action_newGame"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_highScore"
+        android:orderInCategory="100"
+        android:title="@string/action_highScore"
+        app:showAsAction="never" />
+</menu>
