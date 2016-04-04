@@ -73,8 +73,6 @@ activity#com.example.yatzy.gui.SetupActivity
 ADDED from C:\Dev\Android\AndroidStudioProjects\Yatzy\app\src\main\AndroidManifest.xml:13:9-24:20
 	android:label
 		ADDED from C:\Dev\Android\AndroidStudioProjects\Yatzy\app\src\main\AndroidManifest.xml:15:13-45
-	android:noHistory
-		ADDED from C:\Dev\Android\AndroidStudioProjects\Yatzy\app\src\main\AndroidManifest.xml:18:13-37
 	android:windowSoftInputMode
 		ADDED from C:\Dev\Android\AndroidStudioProjects\Yatzy\app\src\main\AndroidManifest.xml:17:13-52
 	android:configChanges

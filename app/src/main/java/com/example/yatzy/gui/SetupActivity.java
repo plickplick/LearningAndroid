@@ -61,7 +61,10 @@ public class SetupActivity extends AppCompatActivity {
             GameBoard.getInstance().updatePlayerList();
     }
 
-
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(true);
+    }
 
 
 }

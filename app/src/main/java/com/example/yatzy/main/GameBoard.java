@@ -207,7 +207,8 @@ public class GameBoard {
             button.setText(contextMain.getResources().getString(R.string.PCRollDice));
             button.setTextColor(Color.RED);
         }else{
-            button.setText(contextMain.getResources().getString(R.string.RollDice));
+            int rolls = gameEngine.getNumberOfRolls();
+            button.setText(contextMain.getResources().getString(R.string.RollDice) + " ("+rolls+")");
             button.setTextColor(defColor);
         }
     }

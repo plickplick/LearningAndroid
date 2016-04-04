@@ -1,5 +1,7 @@
 package com.example.yatzy.gui;
+import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -8,6 +10,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TableRow;
@@ -15,6 +18,7 @@ import android.widget.TextView;
 import com.example.yatzy.R;
 import com.example.yatzy.main.Dice;
 import com.example.yatzy.main.GameBoard;
+import com.example.yatzy.main.GameEngine;
 import com.example.yatzy.main.Player;
 import java.lang.reflect.Field;
 import java.util.LinkedList;
@@ -35,9 +39,10 @@ public class MainActivity extends AppCompatActivity {
         GameBoard.getInstance().setContextMain(this);
         setSupportActionBar(toolbar);
         populateScoreCard();
-        settingUpDice();
+
         System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARG");
         GameBoard.getInstance().initGame();
+        settingUpDice();
     }
 
     @Override
@@ -154,10 +159,23 @@ public class MainActivity extends AppCompatActivity {
         ImageView iv4 = (ImageView) findViewById(R.id.image4);
 
         //GameBoard.getInstance().getGameEngine().getDices().rollDices();
-        Dice[] dice = GameBoard.getInstance().getGameEngine().getDices().getDices();
-
+        GameEngine gb = GameBoard.getInstance().getGameEngine();
+        Dice[] dice = gb.getDices().getDices();
+        int nrOfRolls = gb.getNumberOfRolls();
         for(int i = 0; i < dice.length; i++){
             System.out.println(dice[i].getValue());
+        }
+
+        Button button = ((Button)this.findViewById(R.id.BRollDice));
+        int defColor = new Button(this).getTextColors().getDefaultColor();
+
+
+        if(GameBoard.getInstance().getGameEngine().getCurrentPlayer().isPc()){
+            button.setText(this.getResources().getString(R.string.PCRollDice));
+            button.setTextColor(Color.RED);
+        }else{
+            button.setText(this.getResources().getString(R.string.RollDice) + " ("+nrOfRolls+")");
+            button.setTextColor(defColor);
         }
 
         iv0.setImageResource(getResId("d"+dice[0].getValue(), R.drawable.class));
@@ -233,7 +251,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_newGame) {
             GameBoard.restart();
             Intent myIntent = new Intent(this, SetupActivity.class);
-            startActivityForResult(myIntent, 0);
+            startActivity(myIntent);
         }
         if (id == R.id.action_highScore) {
             GameBoard.getInstance().showHighScores();
