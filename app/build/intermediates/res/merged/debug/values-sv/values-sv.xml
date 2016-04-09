@@ -23,7 +23,7 @@
     <string name="TextView7">Bonus</string>
     <string name="TextView8">Par</string>
     <string name="TextView9">Liten stege</string>
-    <string name="TextViewAddPlayer">Lägg till spelare</string>
+    <string name="TextViewAddPlayer">Skapa spelare</string>
     <string name="TextViewListChoose">Välj spelare</string>
     <string name="TextViewListIn">Spelare i spelet</string>
     <string name="TextViewListNoPlayers">Inga spelare</string>

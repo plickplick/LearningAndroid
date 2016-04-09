@@ -88,12 +88,12 @@
         "source": "C:\\Dev\\Android\\AndroidStudioProjects\\Yatzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "C:\\Dev\\Android\\AndroidStudioProjects\\Yatzy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Dev\\Android\\AndroidStudioProjects\\Yatzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_media_action.xml"
-    },
-    {
         "merged": "C:\\Dev\\Android\\AndroidStudioProjects\\Yatzy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Dev\\Android\\AndroidStudioProjects\\Yatzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Dev\\Android\\AndroidStudioProjects\\Yatzy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Dev\\Android\\AndroidStudioProjects\\Yatzy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "C:\\Dev\\Android\\AndroidStudioProjects\\Yatzy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",

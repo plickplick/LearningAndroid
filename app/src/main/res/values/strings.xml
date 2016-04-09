@@ -30,11 +30,11 @@
     <string name="TextViewListIn">Players in game</string>
     <string name="TextViewListNoPlayers">No Players . . . .</string>
     <string name="TextViewListChoose">Choose Players</string>
-    <string name="TextViewAddPlayer">Add players</string>
 
     <string name="HintAddPlayer">Name . . . </string>
     <string name="ButtonAddPlayer">OK</string>
     <string name="ButtonAddPCPlayer">Add PC player</string>
     <string name="ButtonStartGame">Start Game</string>
     <string name="PCRollDice">Play PC</string>
+    <string name="TextViewAddPlayer">Create Player</string>
 </resources>

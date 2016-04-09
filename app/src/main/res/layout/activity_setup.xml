@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/setupbackground">
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:id="@+id/r1">
@@ -14,23 +14,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/TextViewListIn"
-            android:layout_weight="1"
             android:id="@+id/playersingamelabel" />
         <ListView
             android:layout_below="@id/playersingamelabel"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="110dp"
             android:id="@+id/listView1"
-            android:layout_weight="1"
             android:background="@drawable/border2"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:freezesText="true"/>
+            android:freezesText="true"
+            android:text="@string/TextViewAddPlayer"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:fadeScrollbars="false"/>
         <TextView
             android:layout_below="@id/playersingamelabel"
             android:id="@+id/empty_list_item1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="110dp"
             android:text="@string/TextViewListNoPlayers"
             android:visibility="gone"
             android:background="@drawable/border2"
@@ -38,7 +40,7 @@
             android:layout_marginBottom="10dp"
             android:paddingTop="3dip"
             android:paddingBottom="3dip"
-            android:textSize="12dp"/>
+            android:textSize="12sp"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -50,23 +52,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/TextViewListChoose"
-            android:layout_weight="1"
             android:id="@+id/chooseplayerslabel"/>
         <ListView
             android:layout_below="@id/chooseplayerslabel"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="110dp"
             android:id="@+id/listView2"
-            android:layout_weight="1"
             android:background="@drawable/border2"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
-            android:freezesText="true"/>
+            android:freezesText="true"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:fadeScrollbars="false"/>
         <TextView
             android:layout_below="@id/chooseplayerslabel"
             android:id="@+id/empty_list_item2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="110dp"
             android:text="@string/TextViewListNoPlayers"
             android:visibility="gone"
             android:background="@drawable/border2"
@@ -74,47 +77,58 @@
             android:layout_marginBottom="10dp"
             android:paddingTop="3dip"
             android:paddingBottom="3dip"
-            android:textSize="12dp"/>
+            android:textSize="12sp"/>
     </RelativeLayout>
     <TextView
         android:layout_below="@id/r2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/TextViewAddPlayer"
-        android:id="@+id/addplayerlabel"/>
-    <EditText
+        android:id="@+id/addplayerlabel"
+        android:layout_marginTop="25dp"/>
+    <LinearLayout
+        android:id="@+id/Linear01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_below="@id/addplayerlabel"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        >
+        <EditText
+            android:minWidth="150dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/AddPlayer"
+            android:background="@drawable/border2"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:hint="@string/HintAddPlayer"
+            android:freezesText="true"/>
+        <Button
+            android:id="@+id/AddPlayerB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ButtonAddPlayer"
+            android:padding="0dp"/>
+    </LinearLayout>
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_below="@+id/Linear01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonAddPCPlayer" />
+
+    <Button
+        android:id="@+id/StartGame"
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/AddPlayer"
-        android:layout_weight="1"
-        android:background="@drawable/border2"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:paddingTop="3dip"
-        android:paddingBottom="3dip"
-        android:textSize="12dp"
-        android:singleLine="true"
-        android:nextFocusDown="@+id/AddPlayerB"
-        android:hint="@string/HintAddPlayer"
-        android:freezesText="true"/>
-    <Button
-        android:layout_below="@id/AddPlayer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/AddPlayerB"
-        android:text="@string/TextViewAddPlayer"        />
-    <Button
-        android:layout_below="@id/AddPlayerB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/AddPCPlayerB"
-        android:text="@string/ButtonAddPCPlayer"
-        android:singleLine="true"/>
-    <Button
-        android:layout_below="@id/AddPCPlayerB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/StartGame"
-        android:text="@string/ButtonStartGame"/>
+        android:text="@string/ButtonStartGame" />
+
 </RelativeLayout>

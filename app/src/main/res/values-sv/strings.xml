@@ -30,7 +30,7 @@
     <string name="TextViewListIn">Spelare i spelet</string>
     <string name="TextViewListNoPlayers">Inga spelare</string>
     <string name="TextViewListChoose">Välj spelare</string>
-    <string name="TextViewAddPlayer">Lägg till spelare</string>
+    <string name="TextViewAddPlayer">Skapa spelare</string>
 
     <string name="HintAddPlayer">Namn . . . </string>
     <string name="ButtonAddPCPlayer">Lägg till PC spelare</string>

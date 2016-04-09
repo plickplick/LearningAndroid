@@ -16,7 +16,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -126,7 +128,12 @@ public class GameBoard {
     		arrayList1.add(pI.get(i));
     	}
     	for(int i = 0; i < pE.size(); i++){
-    		arrayList2.add(pE.get(i));
+            if(!pE.get(i).isPc()) {
+                arrayList2.add(pE.get(i));
+
+            }else{
+
+            }
     	}
 
         ArrayAdapter<Player> arrayAdapter1 = new ArrayAdapter<Player>(
@@ -143,9 +150,24 @@ public class GameBoard {
         lv1.setEmptyView(((Activity)contextSetup).findViewById(R.id.empty_list_item1));
         lv2.setEmptyView(((Activity)contextSetup).findViewById(R.id.empty_list_item2));
 
+
+       /* if(arrayAdapter1.getCount() > 5){
+            View item = arrayAdapter1.getView(0, null, lv1);
+            item.measure(0, 0);
+            RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, (int) (5.5 * item.getMeasuredHeight()));
+            lv1.setLayoutParams(params);
+        }
+        if(arrayAdapter2.getCount() > 5){
+            View item = arrayAdapter2.getView(0, null, lv2);
+            item.measure(0, 0);
+            RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, (int) (5.5 * item.getMeasuredHeight()));
+            lv2.setLayoutParams(params);
+        }*/
+
         lv1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id)
             {
+                System.out.println("Nu ska jag flyttaPC " + ((Player)lv1.getItemAtPosition(position)).isPc());
                 movePlayer(((Player)lv1.getItemAtPosition(position)));
                 updatePlayerList();
             }
@@ -178,8 +200,23 @@ public class GameBoard {
         this.contextMain = contextMain;
     }
 
+    public void movePCPlayer(){
+        LinkedList<Player> pList = gameEngine.getPlayers().getPlayersIn();
+        for(int i = 0; i < pList.size(); i++){
+            if(pList.get(i).isPc()){
+                gameEngine.getPlayers().movePlayer(pList.get(i));
+                updatePlayerList();
+            }
+        }
+    }
+
     public void movePlayer(Player player){
-    	gameEngine.getPlayers().movePlayer(player);
+        if(player.isPc()) {
+           ((CompoundButton) ((Activity) contextSetup).findViewById(R.id.switch1)).setChecked(false);
+        }else{
+            gameEngine.getPlayers().movePlayer(player);
+        }
+        updatePlayerList();
     }
     
     public void updateChangedPlayer(){

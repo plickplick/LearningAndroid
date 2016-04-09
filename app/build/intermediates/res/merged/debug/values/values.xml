@@ -287,7 +287,7 @@
     <string name="TextView7">Bonus</string>
     <string name="TextView8">One pair</string>
     <string name="TextView9">Small straight</string>
-    <string name="TextViewAddPlayer">Add players</string>
+    <string name="TextViewAddPlayer">Create Player</string>
     <string name="TextViewListChoose">Choose Players</string>
     <string name="TextViewListIn">Players in game</string>
     <string name="TextViewListNoPlayers">No Players . . . .</string>
