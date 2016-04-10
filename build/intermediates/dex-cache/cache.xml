@@ -2,60 +2,74 @@
 <items version="2" >
 
     <item
-        jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_21ef60f9b4519ad8ceece65aab328b55c220400f.jar" />
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.1_4352c0bdf89b0c5430034454f02bc9847d160afa\classes.dex" />
     </item>
     <item
-        jar="C:\Dev\Android\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
-        jumboMode="false"
+        jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_80c884ac2d76b82257f7023bb62d0c365fb79169.jar" />
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_21ef60f9b4519ad8ceece65aab328b55c220400f\classes.dex" />
     </item>
     <item
         jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.3"
         sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_e1fa3132465fe4fa3c5da32421b9e4694a8f8909.jar" />
+        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_e1fa3132465fe4fa3c5da32421b9e4694a8f8909\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\Android\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_80c884ac2d76b82257f7023bb62d0c365fb79169\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="38d962e532ce5cb661fb049261be1ad49f8d4920">
+        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0f5bd9009dc87b3ebbbd0d2e7dedb3b71092dbad\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="663055a77472b72e2d3dc8ce8224bcae1c968378">
+        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b2a791a62267e7de2af853e93ab92cd56f500fd2\classes.dex" />
     </item>
     <item
         jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.3"
         sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_b4b2cd39fe6ae8d3b4e29eda834ff210390ba67c.jar" />
-    </item>
-    <item
-        jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
-        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_4352c0bdf89b0c5430034454f02bc9847d160afa.jar" />
+        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_b4b2cd39fe6ae8d3b4e29eda834ff210390ba67c\classes.dex" />
     </item>
     <item
         jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.3"
         sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_500252fde43eced5007ab1da85177ae536aa542d.jar" />
-    </item>
-    <item
-        jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_bd93cd19250087ea14753ff41146f3b88fc47ad1.jar" />
+        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_500252fde43eced5007ab1da85177ae536aa542d\classes.dex" />
     </item>
     <item
         jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.3"
         sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_fa8ec69928fb98fbdbaaa2774e4f9f7e96afcf28.jar" />
+        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.1_fa8ec69928fb98fbdbaaa2774e4f9f7e96afcf28\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="C:\Dev\Android\AndroidStudioProjects\Yatzy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_bd93cd19250087ea14753ff41146f3b88fc47ad1\classes.dex" />
     </item>
 
 </items>
